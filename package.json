@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-jgonera",
+  "version": "1.0.0",
+  "description": "ESLint config for TypeScript",
+  "type": "module",
+  "main": "eslint.config.ts",
+  "scripts": {
+    "deps:check": "ncu",
+    "deps:update": "ncu -u",
+    "format": "eslint --fix && prettier --write \"./**/*.{js,json,md}\"",
+    "lint": "eslint && prettier --check \"./**/*.{js,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonera/eslint-config-jgonera.git"
+  },
+  "author": "Juliusz Gonera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgonera/eslint-config-jgonera/issues"
+  },
+  "homepage": "https://github.com/jgonera/eslint-config-jgonera#readme",
+  "dependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "jiti": "^2.4.2",
+    "typescript-eslint": "^8.24.1"
+  },
+  "devDependencies": {
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^22.13.5",
+    "eslint": "^9.21.0",
+    "npm-check-updates": "^17.1.15",
+    "prettier": "^3.5.2",
+    "prettier-config-jgonera": "github:jgonera/prettier-config-jgonera#main",
+    "typescript": "^5.7.3"
+  },
+  "prettier": "prettier-config-jgonera"
+}

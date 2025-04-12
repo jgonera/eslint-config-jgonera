@@ -22,7 +22,7 @@
   "homepage": "https://github.com/jgonera/eslint-config-jgonera#readme",
   "dependencies": {
     "@eslint/js": "^9.21.0",
-    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "jiti": "^2.4.2",
     "typescript-eslint": "^8.24.1"

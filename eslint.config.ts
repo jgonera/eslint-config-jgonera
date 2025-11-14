@@ -18,6 +18,17 @@ export default tseslint.config(
     rules: {
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
+      "@typescript-eslint/restrict-template-expressions": [
+        "error",
+        {
+          allow: [{ name: ["Error", "URL", "URLSearchParams"], from: "lib" }],
+          allowAny: true,
+          allowBoolean: true,
+          allowNullish: true,
+          allowNumber: true,
+          allowRegExp: true,
+        },
+      ],
     },
   },
   eslintConfigPrettier,

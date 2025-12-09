@@ -22,19 +22,19 @@
   "homepage": "https://github.com/jgonera/eslint-config-jgonera#readme",
   "dependencies": {
     "@eslint/js": "^9.21.0",
-    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "jiti": "^2.4.2",
-    "typescript-eslint": "^8.24.1"
+    "jiti": "^2.6.1",
+    "typescript-eslint": "^8.49.0"
   },
   "devDependencies": {
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/node": "^22.13.5",
-    "eslint": "^9.21.0",
-    "npm-check-updates": "^17.1.15",
-    "prettier": "^3.5.2",
+    "@types/node": "^24.10.2",
+    "eslint": "^9.39.1",
+    "npm-check-updates": "^19.1.2",
+    "prettier": "^3.7.4",
     "prettier-config-jgonera": "github:jgonera/prettier-config-jgonera#main",
-    "typescript": "^5.7.3"
+    "typescript": "^5.9.3"
   },
   "prettier": "prettier-config-jgonera"
 }

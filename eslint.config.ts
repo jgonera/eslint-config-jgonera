@@ -17,6 +17,8 @@ export default defineConfig(
     },
     plugins: { "simple-import-sort": simpleImportSort },
     rules: {
+      // Let Prettier handle all indentation
+      indent: "off",
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
       "@typescript-eslint/restrict-template-expressions": [
